@@ -37,13 +37,13 @@ Module - It having the calling method of .py file for “Getstarted”, “Insur
 TestCases - It having the unittest.TestCase class for run the test cases.
 
 
-User Controls :-
+User Controls :- UserInputs.py 
 
-UserInputs - User need to edit the values of UserInputs.py (CredentialsFile).
+  - User need to edit the values of UserInputs.py (CredentialsFile).
     
-           - User enter the row number of the .csv file for taking data. (example:- csvrowvalue = 5)
+  - User enter the row number of the .csv file for taking data. (example:- csvrowvalue = 5)
          
-           - User enter the email id for NEB Medical. And enter the valid credentials of email id and password of Gmail account.
+  - User enter the email id for NEB Medical. And enter the valid credentials of email id and password of Gmail account.
            
 
-CSVFileData - User can provide the local path of .csv file into CSVFileData.py (CredentialsFile). User need to convert excel sheet into the . csv file. The indexing               start from the 0. 
+CSVFileData.py - User can provide the local path of .csv file into CSVFileData.py (CredentialsFile). User need to convert excel sheet into the . csv file. The indexing start from the 0. 
