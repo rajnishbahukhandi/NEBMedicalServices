@@ -47,3 +47,35 @@ User Controls :- UserInputs.py
            
 
 CSVFileData.py - User can provide the local path of .csv file into CSVFileData.py (CredentialsFile). User need to convert excel sheet into the . csv file. The indexing start from the 0. 
+
+
+
+Need To Install :-
+
+The Python Package Index (PyPI) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community.
+
+https://pypi.org/
+
+1. The selenium package is used to automate web browser interaction from Python. Supported Python Versions Python 2.7, 3.4+
+
+   pip3 install selenium
+
+2. The main idea is to simplify management of binary drivers for different browsers. For install the ChromeDriverManager
+
+   from webdriver_manager.chrome import ChromeDriverManager
+
+   pip3 install webdriver-manager
+
+3. Faker is a Python package that generates fake data for you.
+
+   from faker import Faker
+
+   pip3 install Faker
+   
+4. Read .csv file.
+
+   filename = open('/Users/ray.rajnish/Downloads/AutoApplyListforITH-HighEndCoverage.csv', 'r')
+
+   file = csv.DictReader(filename)
+ 
+   import csv
