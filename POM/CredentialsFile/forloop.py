@@ -9,7 +9,7 @@ class forvalue():
 
     # Enter the valid gmail email id and password.
     enterTheGmailId = "Ray.rajnish@ithands.biz"
-    enterTheGmailPassword = "Rubi@1234"
+    enterTheGmailPassword = "123455"
 
 
 
