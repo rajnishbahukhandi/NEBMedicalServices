@@ -1,5 +1,5 @@
 from POM.Locator.Locators import locator
-from POM.CredentialsFile.forloop import forvalue
+from POM.CredentialsFile.UserInputs import userValue
 import time
 
 # Some important email subject lines, which need to check for NEB Medical.
@@ -20,8 +20,8 @@ class Gmail():
         self.allEmails = locator.allEmails_xpath
         self.clickOnInboxBtn = locator.clickOnInboxBtn_xpath
         self.clickOnPromotionBtn = locator.clickOnPromotionBtn_xpath
-        self.enterEmail = forvalue.enterTheGmailId
-        self.enterPassword = forvalue.enterTheGmailPassword
+        self.enterEmail = userValue.enterTheGmailId
+        self.enterPassword = userValue.enterTheGmailPassword
 
     def gmailInbox(self):
         self.driver.find_element_by_id(self.G_email).send_keys(self.enterEmail)

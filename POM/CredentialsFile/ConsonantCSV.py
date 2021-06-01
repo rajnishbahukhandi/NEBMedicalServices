@@ -1,5 +1,5 @@
 from POM.CredentialsFile.CSVFileData import csvDataextract
-from POM.CredentialsFile.forloop import forvalue
+from POM.CredentialsFile.UserInputs import userValue
 
 # saved the CSV data in the list, and provided these data to the required files.
 class var():
@@ -8,7 +8,7 @@ class var():
         self.csvInsurance = csvDataextract.Insurance
         self.csvInsuranceID = csvDataextract.InsuranceID
         self.csvInsuranceType = csvDataextract.InsuranceType
-        self.valuePut = forvalue.csvrowvalue
+        self.valuePut = userValue.csvrowvalue
 
         self.insuranceData = self.csvInsurance[self.valuePut]
         self.insuranceIDData = self.csvInsuranceID[self.valuePut]

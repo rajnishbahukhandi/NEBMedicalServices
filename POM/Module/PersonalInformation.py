@@ -2,7 +2,7 @@ from POM.Locator.Locators import locator
 from selenium.webdriver.common.keys import Keys
 from POM.Module.InsuranceInformation import Insuranceinformationform
 from POM.CredentialsFile.ConsonantCSV import var
-from POM.CredentialsFile.forloop import forvalue
+from POM.CredentialsFile.UserInputs import userValue
 import time
 from faker import Faker
 fake = Faker()
@@ -31,7 +31,7 @@ class Personalinformationform():
         self.nextBtn2 = locator.nextBtn2_css
         self.InsuranceInfo = Insuranceinformationform(driver)
         self.varCSVData = var(driver)
-        self.emailPut = forvalue.email
+        self.emailPut = userValue.email
 
 
     def personalinformationpage(self):
